@@ -341,18 +341,27 @@
 
 .footer {
   box-sizing: border-box;
+  background-color: #000;
+  color: #fff;
+  padding: 60px 80px;
 }
 
 .footer__columns {
+  flex-wrap: wrap;
+  display: flex;
+  margin-right: auto;
 }
 
 .footer__column_content_hours {
+  justify-content: flex-end;
 }
 
 .footer__column_content_social {
 }
 
 .footer__logo {
+  width: 58px;
+  height: 80px;
 }
 
 .footer__column-heading {
